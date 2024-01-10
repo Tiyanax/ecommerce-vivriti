@@ -1,0 +1,15 @@
+.banner {
+    width: 85%;
+    margin: 10px 8%; 
+    font-size: 12px;
+    padding: 20px; 
+    background: linear-gradient(to right, #3b3b3b 50%, #dd605a);
+    border-radius: 5px;
+    color: white; 
+    text-align: left; 
+}
+
+.banner-header {
+    font-size: 14px;
+    font-weight: 700;
+}

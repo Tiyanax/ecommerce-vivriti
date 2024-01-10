@@ -1,0 +1,13 @@
+.content {
+  white-space: pre-line;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.readmore {
+  cursor: pointer;
+  color: #fff;
+  font-weight:bold ;
+  text-decoration: none;
+}
+
