@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ecommerce-vivriti/static/css/main.8b029cbb.css",
+    "main.css": "/ecommerce-vivriti/static/css/main.6fa239ca.css",
     "main.js": "/ecommerce-vivriti/static/js/main.0e2111ac.js",
     "static/js/787.988a1c58.chunk.js": "/ecommerce-vivriti/static/js/787.988a1c58.chunk.js",
     "static/media/cards1.png": "/ecommerce-vivriti/static/media/cards1.3590d85c01c3e93b2953.png",
     "index.html": "/ecommerce-vivriti/index.html",
-    "main.8b029cbb.css.map": "/ecommerce-vivriti/static/css/main.8b029cbb.css.map",
+    "main.6fa239ca.css.map": "/ecommerce-vivriti/static/css/main.6fa239ca.css.map",
     "main.0e2111ac.js.map": "/ecommerce-vivriti/static/js/main.0e2111ac.js.map",
     "787.988a1c58.chunk.js.map": "/ecommerce-vivriti/static/js/787.988a1c58.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b029cbb.css",
+    "static/css/main.6fa239ca.css",
     "static/js/main.0e2111ac.js"
   ]
 }
