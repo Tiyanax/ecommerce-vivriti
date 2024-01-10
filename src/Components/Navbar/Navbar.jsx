@@ -20,10 +20,7 @@ const clearSearch = () => {
       <div className="nav-logo">
         <span className="colored-text">MoBoo</span><span className="colored-text">M</span>
       </div>
-      <ul className="nav-menu">
-
-  
-    <div className="search-container">
+      <div className="search-container">
       <input
         className='search-product'
         placeholder='Search products...'
@@ -36,6 +33,10 @@ const clearSearch = () => {
           </span>
         )}
     </div>
+      <ul className="nav-menu">
+
+  
+    
         <li>
           Store 
         </li>

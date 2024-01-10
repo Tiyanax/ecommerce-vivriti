@@ -3,11 +3,13 @@ import { useState, useEffect } from 'react';
 import { Navbar } from './Components/Navbar/Navbar'
 import Banner from './Components/Banner/Banner'
 import ProductCard from './Components/ProductCard/ProductCard';
+import ProductList from './Components/ProductList/ProductList';
 
 
 
 import './App.css';
 import Dropdown from './Components/Dropdown/Dropdown';
+import { Footer } from './Components/Footer/Footer';
 
 
 function App() {
@@ -18,7 +20,6 @@ function App() {
   const [selectedCategory, setSelectedCategory] = useState('')
   const [selectedProduct, setSelectedProduct] = useState('')
 
-  console.log(selectedCategory, 'from child')
 
   const fetchProducts = () => {
     fetch('https://dummyjson.com/products')
@@ -40,11 +41,10 @@ function App() {
   const searchProductsByProduct = (data) => {
     fetch(`https://dummyjson.com/products/search?q=${data}`)
       .then((res) => res.json())
-      // .then(res => console.log(res, 'from childprod'))
       .then((data) => setProducts(data.products))
   }
 
-  
+
   useEffect(() => {
     fetchProducts()
     fetchCategories()
@@ -73,19 +73,10 @@ function App() {
       <Banner />
       {categories && <Dropdown categories={categories}
         categorySelection={cat => setSelectedCategory(cat)} />}
-      <div className='product-container'>
 
-        {products && products.map((product) => (
-          <ProductCard
-            key={product.id}
-            image={product.thumbnail}
-            name={product.title}
-            description={product.description}
-            price={product.price}
-            rating={product.rating}
-          />
-        ))}
-      </div>
+
+      <ProductList products={products} />
+<Footer />
     </div>
   );
 }

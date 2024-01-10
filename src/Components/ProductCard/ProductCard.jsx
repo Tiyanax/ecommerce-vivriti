@@ -20,7 +20,7 @@ const ProductCard = ({ image, name, description, price, rating }) => {
             </div>
           </div>
           <div className="product-info">
-            <div className="product-name">${description.slice(0, 20)}...</div>
+            <div className="product-name">${name.slice(0, 20)}</div>
                   <div className="product-desc">
                   ${description.slice(0, 50)}...
                       </div>
