@@ -41,7 +41,7 @@ const clearSearch = () => {
           Store 
         </li>
         <li>Account</li>
-        <li>Wish list</li>
+        <li>Wish List</li>
     
       <div className="nav-login-cart">
         <span>
